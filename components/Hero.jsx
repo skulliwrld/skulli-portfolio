@@ -37,9 +37,8 @@ function Hero() {
                     ]}
                     wrapper="span"
                     speed={50}
-                    style={{fontSize: '3rem'}}
                     repeat={Infinity}
-                    className="text-xl"
+                    className="lg:text-6xl md:text-5xl text-xl"
                 />
                 </h1>
 
