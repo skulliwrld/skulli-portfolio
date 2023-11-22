@@ -9,8 +9,8 @@ import { AiTwotoneMail } from "react-icons/ai";
 
 function Footer() {
   return (
-    <footer className="footer border border-t-[#33353F]">
-        <div className=' py-10 md:px-10 px-4 grid md:grid-cols-2 '>
+    <footer className="footer border border-t-[#33353F] ">
+        <div className=' py-5 md:px-10 px-4 grid md:grid-cols-2'>
             <Link href={"/"}>
                 <h1 className="font-bold text-white text-4xl">Code Skulli</h1>
                 <div className="content text-[#ADB7BE] ml-8 mt-7">
@@ -26,7 +26,7 @@ function Footer() {
 
                     <div className="flex items-start my-4  hover:text-primary-500">
                         <AiTwotoneMail  className="font-semibold text-4xl mr-4 " />
-                        <h1 className="text-[#ADB7BE] text-xl">ikechijosephpriye14@gmail.com</h1>
+                        <h1 className="text-[#ADB7BE] text-xl">ikechijoseph63@yahoo.com</h1>
                     </div>
 
                     <div className="flex items-start my-4  hover:text-primary-500">

@@ -71,7 +71,7 @@ function About() {
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                 <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                 <p className="text-base lg:text-xl">
-                    I am full stack web developer with a passion for creating interactive and responsive web application. i have experience working with javaScript, React, Redux,Node.js, Next.js,PostgresQL,HTML,CSS,and Git. i am a quick learner and i am alway looking to expand my knowledge  skill set. i am a team player and i am excited to work with others to create amazing applications
+                    I am a full stack web developer with a passion for creating interactive and responsive web application. i have experience working with javaScript, React, Redux,Node.js, Next.js,PostgresQL,HTML,CSS,and Git. i am a quick learner and i am alway looking for ways to expand my knowledge and skills set. i am a team player and i am excited to work with others developers to create amazing applications
                 </p>
                 <div className="flex flew-row mt-8 md:text-xl ">
                     <TabButton selectTab={()=> handleChangeTab('skills')} active={tabs === 'skills'}>Skills</TabButton>

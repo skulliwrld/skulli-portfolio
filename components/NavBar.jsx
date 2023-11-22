@@ -23,15 +23,15 @@ function NavBar() {
 
   return (
     <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90 md:border-b md:border-slate-400 lg:px-12'>
-        <div className="flex flex-wrap items-center justify-between mx-auto p-8">
+        <div className="flex flex-wrap items-center justify-between mx-auto p-8 py-5">
             <Link href="/" className=" text-2xl md:text-5xl text-white font-semibold">LOGO</Link>
             
             <div className="mobile-view block md:hidden" onClick={handleClick}>
               {
                 click ?(
-                  <button className='flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white  hover:border-white text-slate-200'><XMarkIcon className="w-5 h-5"/></button>
+                  <button className='flex items-center justify-center px-3 py-2 border rounded border-slate-200 hover:text-white  hover:border-white text-slate-200'><XMarkIcon className="w-5 h-5"/></button>
                 ) : (
-                  <button className='flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white  hover:border-white text-slate-200'><Bars3Icon className="h-5 w-5"/></button>
+                  <button className='flex items-center px-3 py-2 border justify-center rounded border-slate-200 hover:text-white  hover:border-white text-slate-200'><Bars3Icon className="h-5 w-5"/></button>
                 )
               }
             </div>
